@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.257">
+    <testcase classname="Application login" name="login test cases" time="0.072">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check  if browser triggered............................................passed
+Given User enters into landing page.........................................passed
+When User enters user name "Vijay" and password "Mydream"...................passed
+Then Application logged in successfully.....................................passed
+And User logged in displayed "true".........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application login" name="login test cases 2" time="0.014">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check  if browser triggered............................................passed
+Given User enters into landing page.........................................passed
+When User enters user name "Devsai" and password "Imadoctor"................passed
+Then Application logged in successfully.....................................passed
+And User logged in displayed "false"........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

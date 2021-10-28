@@ -1,0 +1,297 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Validate the browser",
+            "match": {
+              "location": "stepDefinations.Loginfeature.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "stepDefinations.Loginfeature.browser_is_triggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check  if browser triggered",
+            "match": {
+              "location": "stepDefinations.Loginfeature.check_if_browser_triggered()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-04T11:34:46.223Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "login test cases",
+        "description": "",
+        "id": "application-login;login-test-cases",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.aftervalidationTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters into landing page",
+            "match": {
+              "location": "stepDefinations.Loginfeature.user_enters_into_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters user name \"Vijay\" and password \"Mydream\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vijay\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Mydream\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinations.Loginfeature.user_enters_user_name_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Application logged in successfully",
+            "match": {
+              "location": "stepDefinations.Loginfeature.application_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User logged in displayed \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinations.Loginfeature.user_logged_in_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Validate the browser",
+            "match": {
+              "location": "stepDefinations.Loginfeature.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "stepDefinations.Loginfeature.browser_is_triggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check  if browser triggered",
+            "match": {
+              "location": "stepDefinations.Loginfeature.check_if_browser_triggered()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-04T11:34:46.307Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "login test cases",
+        "description": "",
+        "id": "application-login;login-test-cases",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.aftervalidationTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1003700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters into landing page",
+            "match": {
+              "location": "stepDefinations.Loginfeature.user_enters_into_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters user name \"Devsai\" and password \"Imadoctor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Devsai\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Imadoctor\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinations.Loginfeature.user_enters_user_name_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1999100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Application logged in successfully",
+            "match": {
+              "location": "stepDefinations.Loginfeature.application_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User logged in displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinations.Loginfeature.user_logged_in_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
